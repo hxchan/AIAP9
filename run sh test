@@ -1,0 +1,124 @@
+Run log:
+
+hanxiang.chan@SGSI11-F0MM8H2 MINGW64 ~
+$ pwd
+/c/Users/hanxiang.chan
+
+hanxiang.chan@SGSI11-F0MM8H2 MINGW64 ~
+$ cd Desktop/chan_han_xiang_496Z
+
+hanxiang.chan@SGSI11-F0MM8H2 MINGW64 ~/Desktop/chan_han_xiang_496Z
+$ ./run.sh
+Requirement already satisfied: bs4 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (0.0.1)
+Requirement already satisfied: beautifulsoup4 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from bs4) (4.9.3)
+Requirement already satisfied: soupsieve>1.2; python_version >= "3.0" in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from beautifulsoup4->bs4) (2.2.1)
+WARNING: You are using pip version 20.2.3; however, version 21.2.2 is available.
+You should consider upgrading via the 'C:\Users\hanxiang.chan\AppData\Local\Programs\Python\Python38\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: jupyterlab in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (3.1.1)
+Requirement already satisfied: ipython in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (7.25.0)
+Requirement already satisfied: tornado>=6.1.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (6.1)
+Requirement already satisfied: jupyter-core in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (4.7.1)
+Requirement already satisfied: jupyter-server~=1.4 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (1.10.1)
+Requirement already satisfied: nbclassic~=0.2 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (0.3.1)
+Requirement already satisfied: jupyterlab-server~=2.3 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (2.6.1)
+Requirement already satisfied: jinja2>=2.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (3.0.1)
+Requirement already satisfied: packaging in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab) (21.0)
+Requirement already satisfied: backcall in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.2.0)
+Requirement already satisfied: decorator in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (5.0.9)
+Requirement already satisfied: matplotlib-inline in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.1.2)
+Requirement already satisfied: pickleshare in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.7.5)
+Requirement already satisfied: setuptools>=18.5 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (49.2.1)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (3.0.19)
+Requirement already satisfied: colorama; sys_platform == "win32" in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.4.4)
+Requirement already satisfied: jedi>=0.16 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (0.18.0)
+Requirement already satisfied: pygments in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (2.9.0)
+Requirement already satisfied: traitlets>=4.2 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipython->jupyterlab) (5.0.5)
+Requirement already satisfied: pywin32>=1.0; sys_platform == "win32" in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-core->jupyterlab) (301)
+Requirement already satisfied: websocket-client in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (1.1.0)
+Requirement already satisfied: nbformat in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (5.1.3)
+Requirement already satisfied: anyio<4,>=3.1.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (3.3.0)
+Requirement already satisfied: prometheus-client in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.11.0)
+Requirement already satisfied: requests-unixsocket in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.2.0)
+Requirement already satisfied: pyzmq>=17 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (22.1.0)
+Requirement already satisfied: argon2-cffi in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (20.1.0)
+Requirement already satisfied: nbconvert in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (6.1.0)
+Requirement already satisfied: terminado>=0.8.3 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.10.1)
+Requirement already satisfied: jupyter-client>=6.1.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (6.1.12)
+Requirement already satisfied: ipython-genutils in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (0.2.0)
+Requirement already satisfied: Send2Trash in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-server~=1.4->jupyterlab) (1.7.1)
+Requirement already satisfied: notebook<7 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbclassic~=0.2->jupyterlab) (6.4.0)
+Requirement already satisfied: requests in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (2.26.0)
+Requirement already satisfied: babel in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (2.9.1)
+Requirement already satisfied: json5 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (0.9.6)
+Requirement already satisfied: jsonschema>=3.0.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyterlab-server~=2.3->jupyterlab) (3.2.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jinja2>=2.1->jupyterlab) (2.0.1)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from packaging->jupyterlab) (2.4.7)
+Requirement already satisfied: wcwidth in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython->jupyterlab) (0.2.5)
+Requirement already satisfied: parso<0.9.0,>=0.8.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jedi>=0.16->ipython->jupyterlab) (0.8.2)
+Requirement already satisfied: idna>=2.8 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from anyio<4,>=3.1.0->jupyter-server~=1.4->jupyterlab) (3.2)
+Requirement already satisfied: sniffio>=1.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from anyio<4,>=3.1.0->jupyter-server~=1.4->jupyterlab) (1.2.0)
+Requirement already satisfied: urllib3>=1.8 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from requests-unixsocket->jupyter-server~=1.4->jupyterlab) (1.26.6)
+Requirement already satisfied: six in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from argon2-cffi->jupyter-server~=1.4->jupyterlab) (1.16.0)
+Requirement already satisfied: cffi>=1.0.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from argon2-cffi->jupyter-server~=1.4->jupyterlab) (1.14.6)
+Requirement already satisfied: nbclient<0.6.0,>=0.5.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.5.3)
+Requirement already satisfied: mistune<2,>=0.8.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.8.4)
+Requirement already satisfied: testpath in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.5.0)
+Requirement already satisfied: bleach in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (3.3.1)
+Requirement already satisfied: defusedxml in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.7.1)
+Requirement already satisfied: jupyterlab-pygments in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.1.2)
+Requirement already satisfied: pandocfilters>=1.4.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (1.4.3)
+Requirement already satisfied: entrypoints>=0.2.2 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbconvert->jupyter-server~=1.4->jupyterlab) (0.3)
+Requirement already satisfied: pywinpty>=1.1.0; os_name == "nt" in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from terminado>=0.8.3->jupyter-server~=1.4->jupyterlab) (1.1.3)
+Requirement already satisfied: python-dateutil>=2.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jupyter-client>=6.1.1->jupyter-server~=1.4->jupyterlab) (2.8.2)
+Requirement already satisfied: ipykernel in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from notebook<7->nbclassic~=0.2->jupyterlab) (6.0.3)
+Requirement already satisfied: charset-normalizer~=2.0.0; python_version >= "3" in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from requests->jupyterlab-server~=2.3->jupyterlab) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from requests->jupyterlab-server~=2.3->jupyterlab) (2021.5.30)
+Requirement already satisfied: pytz>=2015.7 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from babel->jupyterlab-server~=2.3->jupyterlab) (2021.1)
+Requirement already satisfied: attrs>=17.4.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jsonschema>=3.0.1->jupyterlab-server~=2.3->jupyterlab) (21.2.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from jsonschema>=3.0.1->jupyterlab-server~=2.3->jupyterlab) (0.18.0)
+Requirement already satisfied: pycparser in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from cffi>=1.0.0->argon2-cffi->jupyter-server~=1.4->jupyterlab) (2.20)
+Requirement already satisfied: nest-asyncio in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbclient<0.6.0,>=0.5.0->nbconvert->jupyter-server~=1.4->jupyterlab) (1.5.1)
+Requirement already satisfied: async-generator in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from nbclient<0.6.0,>=0.5.0->nbconvert->jupyter-server~=1.4->jupyterlab) (1.10)
+Requirement already satisfied: webencodings in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from bleach->nbconvert->jupyter-server~=1.4->jupyterlab) (0.5.1)
+Requirement already satisfied: debugpy<2.0,>=1.0.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from ipykernel->notebook<7->nbclassic~=0.2->jupyterlab) (1.4.1)
+WARNING: You are using pip version 20.2.3; however, version 21.2.2 is available.
+You should consider upgrading via the 'C:\Users\hanxiang.chan\AppData\Local\Programs\Python\Python38\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: pipenv in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (2021.5.29)
+Requirement already satisfied: virtualenv-clone>=0.2.5 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (0.5.6)
+Requirement already satisfied: certifi in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (2021.5.30)
+Requirement already satisfied: virtualenv in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (20.7.0)
+Requirement already satisfied: pip>=18.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (20.2.3)
+Requirement already satisfied: setuptools>=36.2.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (49.2.1)
+Requirement already satisfied: backports.entry-points-selectable>=1.0.4 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from virtualenv->pipenv) (1.1.0)
+Requirement already satisfied: filelock<4,>=3.0.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from virtualenv->pipenv) (3.0.12)
+Requirement already satisfied: distlib<1,>=0.3.1 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from virtualenv->pipenv) (0.3.2)
+Requirement already satisfied: six<2,>=1.9.0 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from virtualenv->pipenv) (1.16.0)
+Requirement already satisfied: platformdirs<3,>=2 in c:\users\hanxiang.chan\appdata\local\programs\python\python38\lib\site-packages (from virtualenv->pipenv) (2.2.0)
+WARNING: You are using pip version 20.2.3; however, version 21.2.2 is available.
+You should consider upgrading via the 'C:\Users\hanxiang.chan\AppData\Local\Programs\Python\Python38\python.exe -m pip install --upgrade pip' command.
+Requirements file provided! Importing into Pipfile...
+Installing dependencies from Pipfile.lock (47ecdf)...
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+[W 2021-08-02 16:50:07.400 LabApp] 'file_to_run' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-08-02 16:50:07.400 LabApp] 'file_to_run' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-08-02 16:50:07.409 LabApp] JupyterLab extension loaded from C:\Users\hanxiang.chan\.virtualenvs\chan_han_xiang_496Z-p77Zk3MX\lib\site-packages\jupyterlab
+[I 2021-08-02 16:50:07.409 LabApp] JupyterLab application directory is C:\Users\hanxiang.chan\.virtualenvs\chan_han_xiang_496Z-p77Zk3MX\share\jupyter\lab
+[I 16:50:07.415 NotebookApp] The port 8888 is already in use, trying another port.
+[I 16:50:07.419 NotebookApp] Serving notebooks from local directory: C:\Users\hanxiang.chan\Desktop\chan_han_xiang_496Z
+[I 16:50:07.419 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 16:50:07.419 NotebookApp] http://localhost:8889/?token=134230bd48098d4fc67f2d2b1409618bb6d307dbb4f68972
+[I 16:50:07.419 NotebookApp]  or http://127.0.0.1:8889/?token=134230bd48098d4fc67f2d2b1409618bb6d307dbb4f68972
+[I 16:50:07.419 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:50:07.496 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/hanxiang.chan/AppData/Roaming/jupyter/runtime/nbserver-23444-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=134230bd48098d4fc67f2d2b1409618bb6d307dbb4f68972
+     or http://127.0.0.1:8889/?token=134230bd48098d4fc67f2d2b1409618bb6d307dbb4f68972
+[W 16:50:11.007 NotebookApp] Notebook eda.ipynb is not trusted
+[W 16:50:11.148 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210802165006 (::1) 13.960000ms referer=http://localhost:8889/notebooks/eda.ipynb
+[I 16:50:13.410 NotebookApp] Kernel started: f260f356-45de-463a-8062-6a479e07d142, name: aiap9
+[I 16:50:23.320 NotebookApp] Starting buffering for f260f356-45de-463a-8062-6a479e07d142:d1ee3cfde8a34017ac33266db2e393ac
+
